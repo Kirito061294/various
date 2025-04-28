@@ -1,0 +1,27 @@
+# Lokale Adressen
+#
+#
+#
+# Microsoft Stuff
+0.0.0.0 self.events.data.microsoft.com
+0.0.0.0 cjs.diagnostics.office.com
+0.0.0.0 telemetry.visualstudio.microsoft.com
+#
+# Google Stuff
+0.0.0.0 ssl.google-analytics.com
+0.0.0.0 static.doubleclick.net
+0.0.0.0 googleads.g.doubleclick.net
+#
+# HoyoVerse Telemetrie
+0.0.0.0 minor-api-os.hoyoverse.com
+#
+# Werbung
+0.0.0.0 m.adnxs.com
+0.0.0.0 ads-delivery.gameforge.com
+0.0.0.0 admention.adspirit.de
+#
+# Spieleplattformen Tracking
+0.0.0.0 tracking.epicgames.com
+#
+# Various Analytics and Tracking
+0.0.0.0 anon-analytics.data.ashampoo.com
