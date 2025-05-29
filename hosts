@@ -50,10 +50,18 @@
 0.0.0.0 securepubads.g.doubleclick.net
 0.0.0.0 pagead2.googlesyndication.com
 0.0.0.0 www.googletagmanager.com
-#
-# HoyoVerse Telemetrie
+0.0.0.0 clienttracing-pa.googleapis.com
+0.0.0.0 crashlyticsreports-pa.googleapis.com
+0.0.0.0 app-measurement.com
+# Echtzeit-Crash-Reporting-Dienst
+0.0.0.0 firebase-settings.crashlytics.com
+# ---------------------
+# --- Samsung Stuff ---
+0.0.0.0 ib.isappcloud.com
+# ---------------------
+# --- HoyoVerse Telemetrie ---
 0.0.0.0 minor-api-os.hoyoverse.com
-#
+# ---------------------
 # Werbung
 0.0.0.0 app.tinyadz.com
 0.0.0.0 m.adnxs.com
