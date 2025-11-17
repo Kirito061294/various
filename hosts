@@ -37,6 +37,8 @@
 #0.0.0.0 a-0001.a-msedge.net
 # Fehlerberichterstattung
 #0.0.0.0 oca.microsoft.com
+# Microsoft Azure Trafficmanager
+0.0.0.0 targetednotifications-tm.trafficmanager.net
 # -------------------
 # Edge/Nutzeraktivitätsberichte
 # Notwendig für Anmeldung am MS-Account
@@ -47,6 +49,9 @@
 # Win10 + Edge-Browser Telemetrie
 #0.0.0.0 win10-trt.msedge.net
 # -------------------
+# --- Visual Studio Stuff
+0.0.0.0 sendvsfeedback2.azurewebsites.net
+# ------------------------
 # --- MS-Werbung ---
 0.0.0.0 msft-ssp-emea.adnxs.com
 0.0.0.0 m.adnxs.com
@@ -78,13 +83,6 @@
 # ---------------------
 
 
-
-# --- HoyoVerse Telemetrie ---
-#0.0.0.0 minor-api-os.hoyoverse.com
-# ---------------------
-
-
-
 # Werbung
 0.0.0.0 app.tinyadz.com
 0.0.0.0 ads-delivery.gameforge.com
@@ -105,7 +103,7 @@
 
 # --- Spieleplattformen Tracking und Telemetrie ---
 #
-#0.0.0.0 metrics.live.public.prod.ubiconnect.fleet.ubi.com
+0.0.0.0 metrics.live.public.prod.ubiconnect.fleet.ubi.com
 0.0.0.0 tracking.epicgames.com
 # ---------------------
 
@@ -116,11 +114,16 @@
 0.0.0.0 anon-analytics.data.ashampoo.com
 # ---------------------
 
-
-
+# HoyoVerse Stuff
+0.0.0.0 apm-log-upload-os.hoyoverse.com
+0.0.0.0 hkrpg-log-upload-os.hoyoverse.com
+0.0.0.0 sdk-log-upload-os.hoyoverse.com
+# --- HoyoVerse Telemetrie ---
+#0.0.0.0 minor-api-os.hoyoverse.com
+# ---------------------
 # --- Tencent Stuff ---
-#
-#0.0.0.0 pc.perfsight.wetest.net
+0.0.0.0 pc.perfsight.wetest.net
+0.0.0.0 pc.crashsight.wetest.net
 # ---------------------
 
 
